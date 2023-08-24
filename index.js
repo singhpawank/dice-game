@@ -6,7 +6,7 @@ function refresh(){
 
     const img1 = `dice${randomNumber1}.png`;
     const img2 = `dice${randomNumber2}.png`;
-    const pathToImage = "/images/"
+    const pathToImage = "images/"
 
     document.querySelector(".img1").setAttribute("src", `${pathToImage}${img1}`);
     document.querySelector(".img2").setAttribute("src", `${pathToImage}${img2}`);
@@ -21,5 +21,3 @@ function refresh(){
         heading.innerHTML = "Draw!";
     }
 }
-
-refresh();
